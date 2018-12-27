@@ -34,7 +34,6 @@ INSTALLED_APPS = [
     'home',
     'csvdownload',
     'bootstrap4',
-    'django_forms_bootstrap',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
