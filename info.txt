@@ -1,0 +1,33 @@
+https://qiita.com/t-iguchi/items/d2862e7ef7ec7f1b07e5
+
+
+
+python manage.py startapp csvdownload
+
+csvdownload/models.py
+
+proj01/settings.py
+
+python manage.py makemigrations csvdownload
+python manage.py migrate csvdownload
+
+csvdownload/forms.py
+csvdownload/views.py
+csvdownload/urls.py
+
+mkdir templates
+mkdir templates/csvdownload
+mkdir templates/commons
+
+
+templates/csvdownload/list.html
+templates/csvdownload/import.html
+templates/commons/base.html
+
+proj01/urls.py
+
+
+sudo pip install django-bootstrap4
+
+proj01/settings.py
+
